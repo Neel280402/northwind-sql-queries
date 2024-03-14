@@ -6,3 +6,4 @@ ON orders.order_id = order_details.order_id
 INNER JOIN products 
 ON order_details.product_id = products.product_id
 GROUP BY YEAR(order_date);
+ 
