@@ -1,0 +1,4 @@
+--13) List all orders shipped to ‘Germany’
+SELECT ORDER_ID 
+FROM ORDERS
+WHERE SHIP_COUNTRY = 'Germany'

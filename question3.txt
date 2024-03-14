@@ -1,0 +1,4 @@
+--3)Get the total quantity of each product sold
+SELECT product_id, quantity
+FROM ORDER_DETAILS
+GROUP BY product_id

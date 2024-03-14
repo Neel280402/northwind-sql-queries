@@ -1,0 +1,4 @@
+--18) Find all employees who report to ‘Andrew Fuller’
+SELECT FIRST_NAME, LAST_NAME, REPORTS_TO
+FROM EMPLOYEES
+WHERE REPORTS_TO = 'ANDREW FULLER'
