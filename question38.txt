@@ -1,7 +1,7 @@
 --38. Classify employees based on the number of orders they have processed such that 
 --NumberOfOrders > 100 Then PerformanceCategory as ‘High Performing’. If NumberOfOrders>50
 --Then ‘Medium Performing’ and else ‘Lower Performing’
-SELECT EMPLOYEES.FIRST_NAME,EMPLOYEES.LAST_NAME,
+SELECT EMPLOYEES.FIRST_NAME,EMPLOYEES.LAST_NAME, 
 COUNT(ORDERS.ORDER_ID) ORDER_NUMBER,
 CASE
 WHEN COUNT(ORDERS.ORDER_ID) > 100 THEN 'HIGH_PERFORMING'
