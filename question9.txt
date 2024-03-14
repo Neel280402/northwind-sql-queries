@@ -2,4 +2,4 @@
 select contact_name, ORDER_ID AS CUSTOMERS
 from customers
 left join orders on customers.customer_id=orders.customer_id
-where order_id IS NULL;
+where order_id IS NULL; 
